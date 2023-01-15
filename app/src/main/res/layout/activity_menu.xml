@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@drawable/order">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".Menu">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="List Menu"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded">
+
+            <CheckBox
+                android:id="@+id/coffeamericano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:padding="10dp"
+                android:src="@drawable/americano" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Americano"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 15.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahamericano"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded">
+
+            <CheckBox
+                android:id="@+id/espresso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:padding="10dp"
+                android:src="@drawable/espresso" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Espresso"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="40dp"
+                android:text="Rp. 14.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahespresso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded">
+
+            <CheckBox
+                android:id="@+id/capucino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:padding="10dp"
+                android:src="@drawable/capucino" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Cappucino"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 16.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahcapucino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded">
+
+            <CheckBox
+                android:id="@+id/latte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:padding="10dp"
+                android:src="@drawable/latte" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Latte Art"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 19.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahlatte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded">
+
+            <CheckBox
+                android:id="@+id/mocachino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:padding="10dp"
+                android:src="@drawable/mocaccino" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Mocachino"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 18.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahmocachino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded">
+
+            <CheckBox
+                android:id="@+id/macchiato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:padding="10dp"
+                android:src="@drawable/macchiato" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="145dp"
+                android:paddingTop="15dp"
+                android:text="Macchiato"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="145dp"
+                android:text="Rp. 17.000"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/jumlahmacchiato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="55dp"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="12dp"
+                android:text="0"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/btn_pesan"
+                android:paddingHorizontal="30dp"
+                android:paddingVertical="10dp"
+                android:text="Pesan" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
